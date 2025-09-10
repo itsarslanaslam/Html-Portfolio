@@ -1,0 +1,52 @@
+#cards {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.card {
+    height: 30vh;
+    width: 25vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+#cards .card:nth-child(1) {
+    background-color: chocolate;
+}
+
+#cards .card:nth-child(2) {
+    background-color: brown;
+}
+
+#cards .card:nth-child(3) {
+    background-color: darkgrey;
+}
+
+
+#skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;
+
+    margin-top: 30px;
+}
+
+.left-column {
+    background-color: burlywood;
+    height: 30vh;
+    text-align: center;
+    align-content: center;
+}
+
+.right-column {
+    background-color: palegreen;
+    height: 30vh;
+    text-align: center;
+    align-content: center;
+}

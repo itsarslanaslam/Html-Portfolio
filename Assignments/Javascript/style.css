@@ -1,0 +1,53 @@
+.card{
+    width: 300px;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+box-sizing: border-box;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    color:grey;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+align-items: center;
+}
+
+form input{
+    background-color: black;
+    height: 30px;
+color: white;
+border-radius: 10px;
+width: 50vw;
+padding: 0 5px;
+transition: 0.7s ease;
+}
+
+input:hover{
+    background-color: gray;
+    color: black;
+}
+
+form ::placeholder{
+    color: white;
+}
+
+input:nth-child(3){
+    background-color: red;
+    padding: 0 30px;
+    border-radius: 5px;
+}
