@@ -12,41 +12,41 @@
 
 
                                             //Promises
-console.log('This is Promises');
+// console.log('This is Promises');
 
-let prom1 = new Promise((resolve, reject) => {
-    let a = Math.random();
-    if (a < 0.5) {
-        reject("No random number was not supporting you")
-    }
-    else {
-        setTimeout(() => {
-            console.log("Yes I am done")
-            resolve("Harry")
-        }, 3000);
-    }
-})
+// let prom1 = new Promise((resolve, reject) => {
+//     let a = Math.random();
+//     if (a < 0.5) {
+//         reject("No random number was not supporting you")
+//     }
+//     else {
+//         setTimeout(() => {
+//             console.log("Yes I am done")
+//             resolve("Harry")
+//         }, 3000);
+//     }
+// })
 
-let prom2 = new Promise((resolve, reject) => {
-    let a = Math.random();
-    if (a < 0.5) {
-        reject("No random number was not supporting you 2")
-    }
-    else {
-        setTimeout(() => {
-            console.log("Yes I am done 2")
-            resolve("Harry 2")
-        }, 1000);
-    }
-})
+// let prom2 = new Promise((resolve, reject) => {
+//     let a = Math.random();
+//     if (a < 0.5) {
+//         reject("No random number was not supporting you 2")
+//     }
+//     else {
+//         setTimeout(() => {
+//             console.log("Yes I am done 2")
+//             resolve("Harry 2")
+//         }, 1000);
+//     }
+// })
 
  
-let p3 = Promise.race([prom1, prom2])
-p3.then((a)=>{
-    console.log(a)
-}).catch(err=>{
-    console.log(err)
-})
+// let p3 = Promise.race([prom1, prom2])
+// p3.then((a)=>{
+//     console.log(a)
+// }).catch(err=>{
+//     console.log(err)
+// })
 
 
                                             //Callbacks
@@ -105,3 +105,56 @@ p3.then((a)=>{
 // }
 // console.log(factorial(a))
 // console.log(facFor(a))
+
+
+
+//         mouseover, mouseout & mousemove
+// let abcd = document.querySelector("#abcd");
+// abcd.addEventListener("mouseover", function(){
+//     abcd.style.backgroundColor = "yellow";
+// })
+
+// abcd.addEventListener("mouseout", function(){
+//     abcd.style.backgroundColor = "red";
+// })
+
+// window.addEventListener("mousemove", function(dets){
+//     abcd.style.top = dets.clientY + "px";
+//     abcd.style.left = dets.clientX + "px";
+// })
+
+// document.getElementById("parent").addEventListener("click", () => {
+//   alert("Button clicked!");
+// });
+
+// let ul = document.querySelector("ul");
+// ul.addEventListener("click", function(dets){
+// dets.target.style.textDecoration = "line-through";
+// });
+
+// let ul = document.querySelector("ul");
+// ul.addEventListener("click", function(dets){
+// dets.target.classList.toggle("lt");
+// });
+
+
+                        // Bubbling & Event Capturing
+// let a = document.querySelector(".a");
+// let b = document. querySelector(".b");
+// let btn = document. querySelector("button");
+
+// btn.addEventListener( "click" ,function ( ) {
+// console.log('clicked btn');
+// })
+
+// a.addEventListener("click" , function(){
+// console.log("clicked a");
+// })
+
+// b.addEventListener("click", function(){
+// console.log("clicked b"), true;   //captured phase on
+// })
+
+
+
+
