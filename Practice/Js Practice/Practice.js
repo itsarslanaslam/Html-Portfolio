@@ -156,5 +156,44 @@
 // })
 
 
+            // Forms & Form Validation
 
+// let form = document.querySelector("form");
+// let nm = document.querySelector("#name");
+
+// form.addEventListener("submit", function(dets){
+//     dets.preventDefault();
+// if(nm.value.length <= 2){
+//     document.querySelector("#hide").style.display = "initial";
+// }
+// else{
+//         document.querySelector("#hide").style.display = "none";
+// }
+// })
+
+
+                    // regex
+
+//  Your code checks if a given string looks like an email.
+// .test("a@a.a") → returns true.
+//  Regex is basically a mini-language for finding patterns in text.
+
+// let form = document.querySelector("form");
+// let nm = document.querySelector("#name");
+
+// form.addEventListener("submit", function(dets){
+//     dets.preventDefault();
+// let regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+// let ans = regex.test("a@a.a");
+// console.log(ans);
+// })
+
+                    // Clearinterval
+// let count = 10;
+// let interval = setInterval(function(){
+//     if(count >= 1){
+//         count--;
+//         console.log(count);
+//     }else clearInterval(interval);
+// }, 1000)
 

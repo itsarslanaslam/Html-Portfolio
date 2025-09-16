@@ -48,31 +48,58 @@ align-items: center;
     border-radius: 50%;
    } */
 
-   .lt{
+   /* .lt{
     text-decoration: line-through;
+   } */
+
+   small{
+    color: red;
+    font-size: 14px;
    }
+
+   #hide{
+    display: none;
+   }
+
   
     </style>
 </head>
 
 <body>
-    <div class="main">
-        <!-- <h1>q</h1> -->
-        <!-- <div id="abcd"></div> -->
-    </div>
+    <!-- <div class="main">
+        <h1>q</h1>
+        <div id="abcd"></div>
+    </div> -->
 
 
     <!-- <div id="parent" style="padding:20px; background:lightblue;">
 Parent
   <button id="child">Click Me</button>
 </div> -->
-<div class="section">
+<!-- <div class="section">
 <ul>
     <li>Apple</li>
     <li>Grapes</li>
     <li>Dates</li>
 </ul>
+</div> -->
+<form >
+    <input id="name" type="text" placeholder="Name">
+    <div id="hide">
+    <br>
+    <small>The min length should be greater than 2 characters</small>
 </div>
+<br>
+    <input type="password" placeholder="Password">
+    <br>
+    <input type="email" placeholder="Email">
+    <br>
+    <textarea placeholder="Tell us about yourself"></textarea>
+    <br>
+    <input type="submit">
+</form>
+
+
     <script src="Practice.js"></script>
 </body>
 
