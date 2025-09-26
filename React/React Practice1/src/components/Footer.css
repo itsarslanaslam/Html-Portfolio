@@ -1,0 +1,13 @@
+.foot{
+    background-color: rgba(5, 5, 33, 0.904);
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    /* Remove fixed positioning */
+    position: static;
+    bottom: auto;
+    color: floralwhite;
+}
+
+
+

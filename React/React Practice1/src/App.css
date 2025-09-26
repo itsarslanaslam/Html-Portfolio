@@ -1,0 +1,12 @@
+main{
+    display: flex;
+justify-content: center;
+margin-top: 20px;
+color:darkturquoise;
+font-weight: bold;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(20, 19, 19);
+}
+
+nav{
+    background-color: brown;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+li{
+    list-style: none;
+    display: flex;
+    float: left;
+    padding: 10px;
+}
+p{
+    color: aliceblue;
+margin: 10px;   
+
+
+}
+
