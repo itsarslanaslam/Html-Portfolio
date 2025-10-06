@@ -31,8 +31,30 @@ function App() {
   //     </>)
   //   }
 
+  const [age, setAge] = useState(true)
+  // function vote(){
+  //   if(age){
+  //     return(
+  //       <h1>You can vote</h1>
+  //     )
+  //   }else{
+  //     return(
+  //       <h1>You cant vote</h1>
+  //     )
+  //   }
+  // }
+
+
   return (
     <>
+      {/* {vote()} */}
+
+      {/* Ternary operator */}
+      {/* {age ?  <h1>You can vote</h1> :  <h1>You can't vote</h1>} */}
+
+      {/* short circuit operator */} 
+      {age &&  <h1>You can vote</h1>}
+
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -74,6 +96,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+        
+
+
     </>
   )
 }
