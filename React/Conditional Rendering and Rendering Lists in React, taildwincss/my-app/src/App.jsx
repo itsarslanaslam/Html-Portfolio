@@ -44,9 +44,21 @@ function App() {
   //   }
   // }
 
+                {/* map */}
+const IPL = ["Mi", "Rcb", "Csk", "Mi"]
+const result = IPL.map((elem, index)=><h1 key={index}>{elem} index is {index}</h1>) 
 
   return (
     <>
+                  {/* List Rendering */}
+
+    {/* {IPL[0]}
+    {IPL[1]}
+    {IPL[2]} */}
+
+              {/* map */}
+<h1>{result}</h1>
+
       {/* {vote()} */}
 
       {/* Ternary operator */}
@@ -55,16 +67,7 @@ function App() {
       {/* short circuit operator */} 
       {age &&  <h1>You can vote</h1>}
 
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-
+   
       {/* 1st type of rendering, when we use if-else */}
       {showbtn ? <button>showbtn is true</button> : <button>showbtn is false</button>}
 
